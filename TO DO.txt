@@ -1,0 +1,6 @@
+3/20/18
+- Finish TODO in source folder
+- Finish adding comments to VoiceAttack commands in VA-AHK Integration profile
+- Create a VAX package and test out the installation in Windows 10
+- Test out the functionality in Windows 10
+- Finish ReadMe documentation on GitHub
