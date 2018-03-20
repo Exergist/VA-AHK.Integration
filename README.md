@@ -1,6 +1,5 @@
 # VA-AHK.Integration (WORK IN PROGRESS)
 
-
 ## What is it?
 VoiceAttack profile and associated files that allow the use of AutoHotkey v1 functionality within the VoiceAttack environment through C# inline functions. AHK-VA.Integration expands VoiceAttack's capabilities, provides more control over AutoHotkey processing, and enables easy passing of information back and forth between AutoHotkey and VoiceAttack.
 
@@ -25,10 +24,12 @@ This project employs a modified version of [amazing-andrew's AutoHotkey.Interop]
 ## How do I use it?
 Work in progress
 
-## Links
- - [amazing-andrew's AutoHotkey.Interop Repository](https://github.com/amazing-andrew/AutoHotkey.Interop)
- - [AutoHotKey\_H Documentation & Libraries](http://hotkeyit.github.io/v2/)
- - [HotKeyIt's AutoHotkey\_H Repository](https://github.com/HotKeyIt/ahkdll)
+## Help I have issues!
+First and foremost, **_[read the VoiceAttack manual](http://voiceattack.com/VoiceAttackHelp.pdf)_**. Yes it's long, but it covers most of what is needed for you to understand and use VoiceAttack. Plus it covers more advanced stuff which is great to know so you can do other super cool things. 
+
+If you are having problems with the VA software itself there is a [VoiceAttack User Forum](http://voiceattack.com/SMF/index.php) where you may seek help. The community is active and full of dedicated users who will help you with your general VA issues. Plus it's a great place to learn more about VA so you can do other super cool things as well as check out profiles and commands that other users have shared. 
+
+If you are having problems specifically with the VA-AHK.Integration commands or code then head over to the VoiceAttack User Forum, check out the "Issues" section to get an idea for how to provide enough information to request assistance, and then post to the "AutoHotkey Integration With VoiceAttack" thread within the "Inline Functions" section of the forum.
 
 ## Credits
  - Credit for the original AutoHotkey goes to Chris Mallet ([Source](https://autohotkey.com/foundation/history.html))
@@ -36,4 +37,14 @@ Work in progress
  - Additional credit for the continued support and development of the current version of AutoHotkey goes to The AutoHotkey Foundation and the AutoHotkey community ([Source](https://autohotkey.com/foundation/))
  - Credit for AutoHotkey_H (fork of AutoHotkey_L which provides the 32 and 64-bit AutoHotkey.dll) goes to tinku99 (inventor) and HotKeyIt (enhancements and continued development) ([Source](https://github.com/HotKeyIt/ahkdll))
  - Credit for AutoHotkey.Interop goes to "amazing-andrew" (Andrew Smith) ([Source](https://github.com/amazing-andrew/AutoHotkey.Interop))
- - Credit for the continued development of VoiceAttack goes to Gary at www.voiceattack.com
+ - Credit for the creation and continued development of VoiceAttack goes to Gary at www.voiceattack.com
+
+## Full Disclosure
+I am one of the moderators on the VoiceAttack User Forums, and I receive no benefits from the use or promotion of the VoiceAttack software. 
+
+## Links
+ - [amazing-andrew's AutoHotkey.Interop Repository](https://github.com/amazing-andrew/AutoHotkey.Interop)
+ - [AutoHotKey\_H Documentation & Libraries](http://hotkeyit.github.io/v2/)
+ - [HotKeyIt's AutoHotkey\_H Repository](https://github.com/HotKeyIt/ahkdll)
+ - [AutoHotkey](https://autohotkey.com/)
+ - [VoiceAttack](http://voiceattack.com/)
