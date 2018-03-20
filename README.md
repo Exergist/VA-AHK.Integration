@@ -24,6 +24,9 @@ This project employs a modified version of [amazing-andrew's AutoHotkey.Interop]
 ## How do I use it?
 Work in progress
 
+## How do I update it?
+Work in progress
+
 ## Help I have issues!
 First and foremost, **_[read the VoiceAttack manual](http://voiceattack.com/VoiceAttackHelp.pdf)_**. Yes it's long, but it covers most of what is needed for you to understand and use VoiceAttack. Plus it covers more advanced stuff which is great to know so you can do other super cool things. 
 
