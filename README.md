@@ -2,12 +2,10 @@
 
 
 ## What is it?
-VoiceAttack profile and associated files that allow the use of AutoHotkey v1 functionality within the VoiceAttack environment through C# inline functions.
-
-AHK-VA.Integration provides a means to expand VoiceAttack's capabilities, more directly control AutoHotkey scripts, as well as process and pass variables back and forth between AutoHotkey and VoiceAttack.
+VoiceAttack profile and associated files that allow the use of AutoHotkey v1 functionality within the VoiceAttack environment through C# inline functions. AHK-VA.Integration expands VoiceAttack's capabilities, provides more control over AutoHotkey processing, and enables easy passing of information back and forth between AutoHotkey and VoiceAttack.
 
 ## How does it work?
-This project employs a modified version of [amazing-andrew's AutoHotkey.Interop](https://github.com/amazing-andrew/AutoHotkey.Interop) wrapper around [HotKeyIt's ahkdll](https://github.com/HotKeyIt/ahkdll) (aka AutoHotkey_H). 
+This project employs a modified version of [amazing-andrew's AutoHotkey.Interop](https://github.com/amazing-andrew/AutoHotkey.Interop) wrapper around [HotKeyIt's ahkdll](https://github.com/HotKeyIt/ahkdll) (aka AutoHotkey_H). This provides the means to access AutoHotkey functionality (from AutoHotkey.dll) for running scripts, executing AutoHotkey code, etc. via a C# inline function within VoiceAttack. 
 
 ## Installation
   <details>
@@ -21,7 +19,7 @@ This project employs a modified version of [amazing-andrew's AutoHotkey.Interop]
 
 2. Navigate to [VA-AHK.Integration Releases](https://github.com/Exergist/VA-AHK.Integration/releases) and download the most recent version. All you'll need is the .vax file (VoiceAttack profile package), but feel free to check out the source if you wish.
 3. Launch VoiceAttack (I'm assuming you have the licensed version), open the "More Profile Actions" tool (one of the "Profile management buttons"...read the manual if you don't know what this is), and select "Import Profile." Navigate to the folder where you downloaded the release file, select the release file (again, should be a .vax file), and confirm the selection. **You should receive a popup message telling you that the profile contains actions that execute applications and/or kill processes.** This is okay (explained more later), so confirm the profile import. Now you should have the profile "VA-AHK.Integration" available to you within VoiceAttack. The downloaded release file is no longer needed and you may delete it since the profile is now loaded in VoiceAttack's internal files.
-4. Navigate to the directory where you have VoiceAttack installed. Then navigate through the folders Apps ==> VA-AHK Integration ==> MORE HERE and locate the file VA.AutoHotkey.Interop.dll. Move this file into the same folder where your VoiceAttack.exe is located.
+4. Navigate to VoiceAttack's root directory (the same folder where VoiceAttack is installed and your VoiceAttack.exe is located). Then navigate through the folders **Apps ==> VA-AHK Integration ==> MORE HERE** and locate the file VA.AutoHotkey.Interop.dll. Move this file into VoiceAttack's root directory.
 5. This completes the installation of VA-AHK.Integration. Please see the next section for more details on using the new functionality. 
 
 ## How do I use it?
