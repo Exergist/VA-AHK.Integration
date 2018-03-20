@@ -1,0 +1,8 @@
+2/13/18
+
+break the LibraryPath so the interop cannot naturally find the DLL files. then try to see if we can get the DLL to appear in the APPDATA temp folder. May need to build the VA.Autohotkey.Interop DLL first then reference it in a separate project
+
+3/12/18
+* finish above task
+* update the interop for VA and create an updated inline function that carries out all the functionality in VS
+* try creating a thread in one inline function and then tapping into it via another inline function
