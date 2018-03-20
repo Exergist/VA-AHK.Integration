@@ -23,6 +23,7 @@ This project employs a modified version of [amazing-andrew's AutoHotkey.Interop]
 5. This completes the installation of VA-AHK.Integration. Please see the next section for more details on using the new functionality. 
 
 ## How do I use it?
+Work in progress
 
 ## Links
  - [amazing-andrew's AutoHotkey.Interop Repository](https://github.com/amazing-andrew/AutoHotkey.Interop)
