@@ -45,7 +45,7 @@ You can check the version of AutoHotkey employed by VA-AHK.Integration by creati
 ```C# 
 ahk.ExecRaw("MsgBox, AHK version =  %A_AhkVersion%");
 ```
-Both the *Single Function Example* and *Multi-Function Example* included within the VoiceAttack profile fully demonstrate how to retrieve the installed AutoHotkey version. 
+Both the *Single Function Example* and *Multi-Function Example* commands included within the VoiceAttack profile fully demonstrate how to retrieve the installed AutoHotkey version. 
 
 ## Help I have issues!
 First and foremost, **_[read the VoiceAttack manual](http://voiceattack.com/VoiceAttackHelp.pdf)_**. Yes it's long, but it covers most of what is needed for you to understand and use VoiceAttack. Plus it covers more advanced stuff which is great to know so you can do other super cool things. 
