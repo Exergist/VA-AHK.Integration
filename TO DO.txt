@@ -1,3 +1,0 @@
-3/21/18
-- Finish adding comments to VoiceAttack commands in VA-AHK Integration profile
-- Finish ReadMe documentation on GitHub
