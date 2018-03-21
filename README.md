@@ -23,12 +23,17 @@ This project employs a modified version of [amazing-andrew's AutoHotkey.Interop]
 6. This completes the installation of VA-AHK.Integration. 
 
 ## How do I use it?
-Work in progress
+Comprehensive examples of the C# inline functions used to invoke the AutoHotkey functionality are given in the included VoiceAttack profile. It basically boils down to three steps:
+  1. Create an AutoHotkey thread used to process AutoHotkey code and/or scripts
+  2. Execute AutoHotkey code and/or scripts
+  3. Terminate the AutoHotkey thread  
+  
+The command *Single Inline Function Example* 
 
-First you should note that VA-AHK.Integration does is not require installation of the actual AutoHotkey software. There is no issue with having both the actual AutoHotkey software and VA-AHK.Integration installed simultaneously. In fact they each can run the same or different versions of the base AutoHotkey software (for example, AutoHotkey at v1.1.27.00 but VA-AHK.Integration at v1.1.28.00). 
+You should note that VA-AHK.Integration does is not require installation of the actual AutoHotkey software. There is no issue with having both the actual AutoHotkey software and VA-AHK.Integration installed simultaneously. In fact they each can run the same or different versions of the base AutoHotkey software (for example, AutoHotkey at v1.1.27.00 but VA-AHK.Integration at v1.1.28.00). 
 
 ## How do I update it?
-The version of AutoHotkey functionality available via VA-AHK.Integration is dictated by the *AutoHokey.dll* files within the *x86* and *x64* folders. So if you happen to also have the actual AutoHotkey software installed, updating the software will not update the AutoHotkey version available through VA-AHK.Integration. It appears that HotKeyIt is updating the *AutoHotkey.dll* files for both AutoHotkey v1 and the alpha v2 as new versions of AutoHotkey are released. The files may be found in the *Downloads* section here: [HotKeyIt's AutoHotkey\_H Repository](https://github.com/HotKeyIt/ahkdll). **VA-AHK.Integration was created with AutoHotkey v1 in mind, but there's no reason why it wouldn't also work (or be modified to work) with v2.** 
+The version of AutoHotkey functionality available via VA-AHK.Integration is dictated by the *AutoHokey.dll* files within the *x86* and *x64* folders. So if you happen to also have the actual AutoHotkey software installed, updating the software will not update the AutoHotkey version available through VA-AHK.Integration. It appears that HotKeyIt is updating the *AutoHotkey.dll* files for both AutoHotkey v1 and the alpha v2 as new versions of AutoHotkey are released. The files may be found in the *Downloads* section at [HotKeyIt's AutoHotkey\_H Repository](https://github.com/HotKeyIt/ahkdll), and he also provides links to the source code. **VA-AHK.Integration was created with AutoHotkey v1 in mind, but there's no reason why it wouldn't also work (or be modified to work) with v2.** 
 
 There are two ways to update the AutoHotkey version in VA-AHK.Integration:
   1. If new VA-AHK.Integration releases are available the *.vax* import process will automatically update your existing files (assuming the package includes a newer/different version of AutoHotkey compared to what you already installed).
