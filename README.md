@@ -1,4 +1,4 @@
-# VA-AHK.Integration (WORK IN PROGRESS)
+# VA-AHK.Integration
 
 ## What is it?
 VoiceAttack profile and associated files that allow the use of AutoHotkey v1 functionality within the VoiceAttack environment through C# inline functions. AHK-VA.Integration expands VoiceAttack's capabilities, provides more control over AutoHotkey processing, and enables easy passing of information back and forth between AutoHotkey and VoiceAttack.
