@@ -20,22 +20,25 @@ This project employs a modified version of [amazing-andrew's AutoHotkey.Interop]
 3. Launch VoiceAttack (I'm assuming you have the licensed version). Go into the *Options* (wrench icon) and turn off (uncheck) the *Enable Plugin Support* setting within the *General* tab. The *.vax* file contains libraries (*.dll* files) and thus this option needs to be disabled in order to properly import all the data. Confirm the *Options* change. 
 4. Open the *More Profile Actions* tool (one of the *Profile management buttons*...read the manual if you don't know what this is), and select *Import Profile*. Navigate to the folder where you downloaded the release file, select the release file (again, should be a *.vax* package file), and confirm the selection. You should receive a popup message confirming the profile import. Now you should have the profile *VA-AHK.Integration* (including version) available to you within VoiceAttack. The downloaded release file is no longer needed and you may delete it since the profile is now loaded in VoiceAttack's internal files.
 5. Navigate to VoiceAttack's root directory (the same folder where VoiceAttack is installed and your VoiceAttack.exe is located). Then navigate through the folders *Apps* ==> *VA-AHK.Integration*. Here you will find all the files that were included with the *.vax* package in addition to the imported VoiceAttack profile. Locate the file *VA.AutoHotkey.Interop.dll* and move this file into VoiceAttack's root directory.
-6. This completes the installation of VA-AHK.Integration. Please see the next section for more details on using the functionality available through VA-AHK.Integration. 
+6. This completes the installation of VA-AHK.Integration. 
 
 ## How do I use it?
 Work in progress
 
+First you should note that VA-AHK.Integration does is not require installation of the actual AutoHotkey software. There is no issue with having both the actual AutoHotkey software and VA-AHK.Integration installed simultaneously. In fact they each can run the same or different versions of the base AutoHotkey software (for example, AutoHotkey at v1.1.27.00 but VA-AHK.Integration at v1.1.28.00). 
+
 ## How do I update it?
-The version of AutoHotkey functionality available via VA-AHK.Integration is dictated by the *AutoHokey.dll* files within the *x86* and *x64* folders. It appears that HotKeyIt is updating these files for both AutoHotkey v1 and the alpha v2 as new versions of AutoHotkey are released. The files may be found in the *Downloads* section here: [HotKeyIt's AutoHotkey\_H Repository](https://github.com/HotKeyIt/ahkdll). **VA-AHK.Integration was created with AutoHotkey v1 in mind, but there's no reason why it wouldn't also work (or be modified to work) with v2.** 
+The version of AutoHotkey functionality available via VA-AHK.Integration is dictated by the *AutoHokey.dll* files within the *x86* and *x64* folders. So if you happen to also have the actual AutoHotkey software installed, updating the software will not update the AutoHotkey version available through VA-AHK.Integration. It appears that HotKeyIt is updating the *AutoHotkey.dll* files for both AutoHotkey v1 and the alpha v2 as new versions of AutoHotkey are released. The files may be found in the *Downloads* section here: [HotKeyIt's AutoHotkey\_H Repository](https://github.com/HotKeyIt/ahkdll). **VA-AHK.Integration was created with AutoHotkey v1 in mind, but there's no reason why it wouldn't also work (or be modified to work) with v2.** 
 
 There are two ways to update the AutoHotkey version in VA-AHK.Integration:
-  1. If new VA-AHK.Integration releases are available the *.vax* import process will automatically update your existing files.
-  2. To update VA-AHK.Integration manually, take the updated *AutoHotkey.dll* files from the *Win32w* and *x64w* folders from *ahkdll* and move them into VA-AHK.Integration's *x86* (32-bit) and *x64* (64-bit) folders, respectively. 
+  1. If new VA-AHK.Integration releases are available the *.vax* import process will automatically update your existing files (assuming the package includes a newer/different version of AutoHotkey compared to what you already installed).
+  2. To update VA-AHK.Integration manually, take the updated *AutoHotkey.dll* files from the *Win32w* and *x64w* folders from *ahkdll* (see above link) and move them into VA-AHK.Integration's *x86* (32-bit) and *x64* (64-bit) folders, respectively. 
 
 You can check the version of AutoHotkey employed by VA-AHK.Integration by creating an AutoHotkey thread and then running:
 ```C# 
 ahk.ExecRaw("MsgBox, AHK version =  %A_AhkVersion%");
 ```
+The Multi-Function Example include within the VoiceAttack profile fully demonstrates how to retrieve the installed AutoHotkey version. 
 
 ## Help I have issues!
 First and foremost, **_[read the VoiceAttack manual](http://voiceattack.com/VoiceAttackHelp.pdf)_**. Yes it's long, but it covers most of what is needed for you to understand and use VoiceAttack. Plus it covers more advanced stuff which is great to know so you can do other super cool things. 
