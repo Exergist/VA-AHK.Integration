@@ -68,6 +68,6 @@ I am one of the moderators on the VoiceAttack User Forums, and I receive no bene
 ## Links
  - [amazing-andrew's AutoHotkey.Interop Repository](https://github.com/amazing-andrew/AutoHotkey.Interop)
  - [AutoHotKey\_H Documentation & Libraries](http://hotkeyit.github.io/v2/)
- - [HotKeyIt's AutoHotkey\_H Repository](https://github.com/HotKeyIt/ahkdll)
+ - [HotKeyIt's AutoHotkey\_H Repository](https://github.com/HotKeyIt/ahkdll) (also see [v1 release](https://github.com/HotKeyIt/ahkdll-v1-release) and [v2 release](https://github.com/HotKeyIt/ahkdll-v2-release))
  - [AutoHotkey](https://autohotkey.com/)
  - [VoiceAttack](http://voiceattack.com/)
