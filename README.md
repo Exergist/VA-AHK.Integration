@@ -23,10 +23,10 @@ This project employs a modified version of [amazing-andrew's AutoHotkey.Interop]
 6. This completes the installation of VA-AHK.Integration. 
 
 ## How do I use it?
-Comprehensive examples of the C# inline functions used to invoke the AutoHotkey functionality are given in the included VoiceAttack profile. It basically boils down to three steps:
-  1. Create an AutoHotkey thread used to process AutoHotkey code and/or scripts
-  2. Execute AutoHotkey code and/or scripts
-  3. Terminate the AutoHotkey thread  
+Comprehensive examples of the C# inline functions used to invoke the AutoHotkey functionality are given in the included VoiceAttack profile. The process basically comes down to three steps:
+  1. Create an AutoHotkey thread
+  2. Execute AutoHotkey raw code, scripts, and/or other related tasks using the existing thread (in parallel or series with other C# code execution)
+  3. Terminate the AutoHotkey thread and thereby stop all AutoHotkey processing from within VoiceAttack
   
 The command *Single Inline Function Example* 
 
