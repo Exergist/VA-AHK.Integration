@@ -8,7 +8,7 @@ This project employs a modified version of [amazing-andrew's AutoHotkey.Interop]
 
 ## How do I install it?
   <details>
-    <summary>1. First you need VoiceAttack. If you've already got it then go to Step 2. Otherwise expand this section and read on.</summary><p>
+    <summary>1. First you need VoiceAttack (licensed version for this guide). If you've already got it then go to Step 2. Otherwise expand this section and read on.</summary><p>
   
 1. According to www.voiceattack.com "VoiceAttack works with Windows 10 all the way back to Vista." So you've got to have one of those versions of Windows to even use VoiceAttack. Note though that I've only tested VA-AHK.Integration in Windows 7 and Windows 10.
 2. VA-AHK.Integration will work with VoiceAttack v1.6.9 and later. There are currently two versions of the VoiceAttack software available: a purchasable full version and a free limited trial version (the trial version of VoiceAttack "gives you one profile with up to twenty commands"). You will need the licensed version of VoiceAttack to import the *VA-AHK.Integration.vax* package file. The VoiceAttack software may be obtained at www.voiceattack.com (free trial and fully licensed versions) or through [Steam](http://store.steampowered.com/app/583010/VoiceAttack/) (licensed version only). I believe it would be possible to manually recreate the commands contained within the VA-AHK.Integration for use with the trial version, however I will not be covering that. In my opinion the low cost for the VoiceAttack license is totally worth it.
