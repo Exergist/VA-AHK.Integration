@@ -86,18 +86,22 @@ namespace VA.AutoHotkey.Interop
                 }
                 else
                 {
-                    var assembly = typeof(AutoHotkeyEngine).Assembly;
-                    var resource = Util.FindEmbededResourceName(assembly, RelativePath);
-
-                    if (resource != null)
-                    {
-                        //MessageBox.Show("Extracting embedded resources"); //^^debug
-                        var target = Path.Combine(tempFolderPath, RelativePath);
-                        Util.ExtractEmbededResourceToFile(assembly, resource, target);
-                        return SafeLibraryHandle.LoadLibrary(target);
-                    }
-
+                    //MessageBox.Show("AutoHotkey.dll library not found!"); //^^debug
                     return null;
+
+                    //^^MODIFY. Removed so as to not deal with embedded resources
+                    //var assembly = typeof(AutoHotkeyEngine).Assembly;
+                    //var resource = Util.FindEmbededResourceName(assembly, RelativePath);
+
+                    //if (resource != null)
+                    //{
+                    //    //MessageBox.Show("Extracting embedded resources"); //^^debug
+                    //    //var target = Path.Combine(tempFolderPath, RelativePath);
+                    //    //Util.ExtractEmbededResourceToFile(assembly, resource, target);
+                    //    //return SafeLibraryHandle.LoadLibrary(target);
+                    //}
+
+                    //return null;
                 }
             });
 
