@@ -22,7 +22,7 @@ class VAInline
             string MyAppPath = Path.Combine(AppsPath, MyAppName); // Initialize variable for storing path to relevant App directory
 
         // 1.2 Create instance for accessing AHK functionality
-            var ahk = new AutoHotkeyEngine(MyAppPath); // Create an AutoHotkeyEngine instance associated with ahk variable
+            var ahk = new VA.AutoHotkey.Interop.AutoHotkeyEngine(MyAppPath); // Create an AutoHotkeyEngine instance associated with ahk variable
 
         // ========================================================================================================================================================================= //
         // -----------------------------------------------------
