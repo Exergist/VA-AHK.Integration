@@ -42,7 +42,7 @@ The version of AutoHotkey functionality available via VA-AHK.Integration is dict
 
 There are two ways to update the AutoHotkey version in VA-AHK.Integration:
   1. If new VA-AHK.Integration releases are available the *.vax* import process will automatically update your existing files (assuming the package includes a newer/different version of AutoHotkey compared to what you already installed). ~~Note that you'll want to repeat the process of moving *VA.AutoHotkey.Interop.dll* (and overwriting the existing file in the VoiceAttack root directory, if applicable) as described in the installation section. ~~
-  2. To update VA-AHK.Integration manually, take the updated *AutoHotkey.dll* files from the *Win32w* and *x64w* folders from *ahkdll* (see above link) and move them into VA-AHK.Integration's *x86* (32-bit) and *x64* (64-bit) folders, respectively. 
+  2. To update VA-AHK.Integration manually download the AutoHotkey_H v1 *.zip* package and take the updated *AutoHotkey.dll* files from the *Win32w* and *x64w* folders from *ahkdll* (see above link) and move them into VA-AHK.Integration's *x86* (32-bit) and *x64* (64-bit) folders, respectively. 
 
 You can check the version of AutoHotkey employed by VA-AHK.Integration by creating an AutoHotkey thread and then running:
 ```C# 
