@@ -1,0 +1,17 @@
+[b]What is it?[/b]
+The attached VoiceAttack profile provides the means to use AutoHotkey functionality within the VoiceAttack environment through C# inline functions. This project (VA-AHK.Integration) expands VoiceAttack's capabilities, provides more control over AutoHotkey processing, and enables easy communication between AutoHotkey and VoiceAttack. And you don't even need to have the AutoHotkey software installed. 
+
+So in summary this functionality may be useful for folks who use AutoHotkey scripts in conjunction with VoiceAttack and want:
+[list]
+[li]Greater control over AutoHotkey script execution via VoiceAttack[/li]
+[li]A simple framework for passing variable data back and forth between AutoHotkey and VoiceAttack[/li]
+[/list]
+[hr]
+[b]Why would you do this?[/b]
+During the early development of the (now obsolete) [url=http://voiceattack.com/SMF/index.php?topic=1312.0][u] Physical keyboard & mouse input blocking[/u][/url] profile I did a lot of research on how to use AutoHotkey to accomplish the task. In doing so I discovered [url=https://github.com/amazing-andrew/AutoHotkey.Interop][u]amazing-andrew's AutoHotkey.Interop[/u][/url] project on GitHub and I decided to take on the challenge of adapting his work for use with VoiceAttack. 
+
+I'm guessing that 98% of users will have no need for this...but that's okay :)
+
+[hr]
+[b]So how do I use it?[/b]
+If you're still with me down here
