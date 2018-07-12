@@ -28,7 +28,13 @@ Comprehensive examples of the C# inline functions used to invoke the AutoHotkey 
   2. Execute AutoHotkey raw code, scripts, and/or other related tasks using the existing thread (in parallel or series with other C# code execution)
   3. Terminate the AutoHotkey thread and thereby stop all AutoHotkey processing from within VoiceAttack
   
-The the VoiceAttack command *Single Function Example* showcases how to perform a wide range of AutoHotkey actions using VA-AHK.Integration, and this command contains all the AHK functionality within a single C# inline function. The array of commands in the *Multi-Function Example* shows how to execute the above three steps in C# inline functions spread across multiple commands (which can be handy since an AutoHotkey thread will run within the VoiceAttack process instance until either are terminated). Both examples also demonstrate how to pass information back and forth between VoiceAttack, the C# inline function, and the AutoHotkey process invoked via the C# inline function.  The *Keypress Capture* command demonstrates how to use the functionality across multiple C# inline functions within one command. Finally the *Change Default Windows TTS Voice* command showcases the execution of a single AHK script from within one C# inline function. All the VoiceAttack commands and their C# inline functions are provided with detailed comments so you can follow along with what is happening line by line. 
+The VoiceAttack command *Single Function Example* showcases how to perform a wide range of AutoHotkey actions using VA-AHK.Integration, and this command contains all the AHK functionality within a single C# inline function. The array of commands in the *Multi-Function Example* shows how to execute the above three steps in C# inline functions spread across multiple commands (which can be handy since an AutoHotkey thread will run within the VoiceAttack process instance until either are terminated). Both examples also demonstrate how to pass information back and forth between VoiceAttack, the C# inline function, and the AutoHotkey process invoked via the C# inline function.  The *Keypress Capture* command demonstrates how to use the functionality across multiple C# inline functions within one command. Finally the *Change Default Windows TTS Voice* command showcases the execution of a single AHK script from within one C# inline function. All the VoiceAttack commands and their C# inline functions are provided with detailed comments so you can follow along with what is happening line by line. 
+
+When you create an AHK thread it runs in the background within the VoiceAttack process instance. The thread is terminated only via the associated VA-AHK.Integration code:
+```C# 
+ahk.Terminate;
+```
+...or by shutting down VoiceAttack. Pressing the "Stop Commands" button on VoiceAttack's UI **will NOT** terminate an active AHK thread. 
 
 You should note that VA-AHK.Integration does is not require installation of the actual AutoHotkey software. There is no issue with having both the actual AutoHotkey software and VA-AHK.Integration installed simultaneously. In fact they each can run the same or different versions of the base AutoHotkey software (for example, AutoHotkey at v1.1.27.00 but VA-AHK.Integration at v1.1.28.00). Additionally you can actually run both at the same time. Though keep in mind that a hierarchy will apply based on the order that scripts execute. For example, if you specify from VA-AHK.Integration that the hotkey CTRL+A creates a popup message and then specify from actual AutoHotkey that CTRL+A presses the "delete" key then the "delete" action will be performed (it overwrites the message box action). If you reverse the order of executing the scripts then the message box will take priority. Based on my testing general processing for VA-AHK.Integration and actual AutoHotkey are separate. For example you can run one script in actual AutoHotkey that has an ExitApp command (which will terminate the actual AutoHotkey thread), then run VA-AHK.Integration, and finally execute the ExitApp command (which will stop the actual AutoHotkey processing) without interfering with the VA-AHK.Integration processing. 
 
@@ -39,13 +45,13 @@ The version of AutoHotkey functionality available via VA-AHK.Integration is dict
 
 There are two ways to update the AutoHotkey version in VA-AHK.Integration:
   1. If new VA-AHK.Integration releases are available the *.vax* import process will automatically update your existing files (assuming the package includes a newer/different version of AutoHotkey compared to what you already installed).
-  2. To update VA-AHK.Integration manually download the AutoHotkey_H v1 *.zip* package and take the updated *AutoHotkey.dll* files from the *Win32w* and *x64w* folders from *ahkdll* (see above link) and move them into VA-AHK.Integration's *x86* (32-bit) and *x64* (64-bit) folders, respectively. 
+  2. To update VA-AHK.Integration manually download the AutoHotkey_H v1 *.zip* package and take the updated *AutoHotkey.dll* files from the *Win32w* (32-bit) and *x64w* (64-bit) folders from *ahkdll* (see above link) and move them into VA-AHK.Integration's *x86* (32-bit) and *x64* (64-bit) folders, respectively. 
 
 You can check the version of AutoHotkey employed by VA-AHK.Integration by creating an AutoHotkey thread and then running:
 ```C# 
 ahk.ExecRaw("MsgBox, AHK version =  %A_AhkVersion%");
 ```
-Both the *Single Function Example* and *Multi-Function Example* commands included within the VoiceAttack profile demonstrate how to retrieve the installed AutoHotkey version. 
+...and the *Multi-Function Example* commands included within the VoiceAttack profile fully demonstrate how to retrieve the installed AutoHotkey version. 
 
 ## Help I have issues!
 First and foremost, **_[read the VoiceAttack manual](http://voiceattack.com/VoiceAttackHelp.pdf)_**. Yes it's long, but it covers most of what is needed for you to understand and use VoiceAttack. Plus it covers more advanced stuff which is great to know so you can do other super cool things. 
