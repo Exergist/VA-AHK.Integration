@@ -58,7 +58,7 @@ First and foremost, **_[read the VoiceAttack manual](http://voiceattack.com/Voic
 
 If you are having problems with the VoiceAttack software itself there is a [VoiceAttack User Forum](http://voiceattack.com/SMF/index.php) where you may seek help. The community is active and full of dedicated users who will help you with your general VoiceAttack issues. Plus it's a great place to learn more about VoiceAttack so you can do other super cool things as well as check out profiles and commands that other users have shared. 
 
-(pending)~~If you are having problems specifically with the VA-AHK.Integration commands or code then head over to the VoiceAttack User Forum, check out the "Issues" section to get an idea for how to provide enough information to request assistance, and then post to the "AutoHotkey Integration with VoiceAttack" thread within the "Inline Functions" section of the forum.~~
+(pending)~~If you are having problems specifically with the VA-AHK.Integration commands or code then head over to the VoiceAttack User Forum, check out the "Issues" section to get an idea for how to provide enough information to request assistance, and then post to the *AutoHotkey "Integration" with VoiceAttack* thread within the *Inline Functions* section of the forum.~~
 
 ## Credits
  - Credit for the original AutoHotkey goes to Chris Mallet ([Source](https://autohotkey.com/foundation/history.html))
@@ -74,9 +74,9 @@ If you are having problems with the VoiceAttack software itself there is a [Voic
 ## Full Disclosure
 I am one of the moderators on the VoiceAttack User Forums, and I receive no benefits from the use or promotion of the VoiceAttack software. 
 
-## Links
+## Primary Links
  - [amazing-andrew's AutoHotkey.Interop Repository](https://github.com/amazing-andrew/AutoHotkey.Interop)
  - [AutoHotKey\_H Documentation & Libraries](http://hotkeyit.github.io/v2/)
  - [HotKeyIt's AutoHotkey\_H Repository](https://github.com/HotKeyIt/ahkdll) (also see [v1 release](https://github.com/HotKeyIt/ahkdll-v1-release) and [v2 release](https://github.com/HotKeyIt/ahkdll-v2-release))
  - [AutoHotkey](https://autohotkey.com/) (and [AutoHotkey_L source code](https://github.com/Lexikos/AutoHotkey_L))
- - [VoiceAttack](http://voiceattack.com/)
+ - [VoiceAttack.com](http://voiceattack.com/)
