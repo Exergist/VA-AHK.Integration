@@ -58,7 +58,7 @@ First and foremost, **_[read the VoiceAttack manual](http://voiceattack.com/Voic
 
 If you are having problems with the VoiceAttack software itself there is a [VoiceAttack User Forum](http://voiceattack.com/SMF/index.php) where you may seek help. The community is active and full of dedicated users who will help you with your general VoiceAttack issues. Plus it's a great place to learn more about VoiceAttack so you can do other super cool things as well as check out profiles and commands that other users have shared. 
 
-(pending)~~If you are having problems specifically with the VA-AHK.Integration commands or code then head over to the VoiceAttack User Forum, check out the "Issues" section to get an idea for how to provide enough information to request assistance, and then post to the *AutoHotkey "Integration" with VoiceAttack* thread within the *Inline Functions* section of the forum.~~
+If you are having problems specifically with the VA-AHK.Integration commands or code then head over to the VoiceAttack User Forum, check out the "Issues" section to get an idea for how to provide enough information to request assistance, and then post to the *AutoHotkey "Integration" with VoiceAttack* thread within the *Inline Functions* section of the forum.
 
 ## Credits
  - Credit for the original AutoHotkey goes to Chris Mallet ([Source](https://autohotkey.com/foundation/history.html))
