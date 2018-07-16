@@ -3,7 +3,7 @@ The attached VoiceAttack profile provides the means to use AutoHotkey functional
 
 So in summary this functionality may be useful for folks who use AutoHotkey scripts in conjunction with VoiceAttack and want:
 [list]
-[li]Greater control over AutoHotkey script execution via VoiceAttack[/li]
+[li]Greater control over AutoHotkey script execution via VoiceAttack, which is handy especially for running VoiceAttack actions/commands in series with AutoHotkey scripts[/li]
 [li]A simple framework for passing variable data back and forth between AutoHotkey and VoiceAttack[/li]
 [/list]
 [hr]
@@ -14,4 +14,8 @@ I'm guessing that 98% of users will have no need for this...but that's okay :)
 
 [hr]
 [b]So how do I use it?[/b]
-If you're still with me down here
+If you're still with me down here then you can check out the attached VoiceAttack package as well as the associated [url=https://github.com/Exergist/VA-AHK.Integration][u]GithHub repository[/u][/url]. The ReadMe on GitHub provides a good overview of the project as well as details about how the functionality works at a high level. The package contains example commands as well as the required supplementary files. I've provided thorough comments for every command action line in VoiceAttack and code line in the inline functions, so you should be able to follow along and learn how VA.AHK-Integration works and understand its capabilities. 
+
+I've done a lot of testing in Windows 7 and 10, and everything appears to work as expected. However if you encounter any bugs or other unexpected behavior please let me know.
+
+Enjoy! :)
