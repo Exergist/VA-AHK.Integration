@@ -2,7 +2,6 @@
 using System.IO;
 using System.Threading;
 using System.Windows.Forms;
-//using VA.AutoHotkey.Interop;
 
 namespace Examples
 {
@@ -38,8 +37,6 @@ namespace Examples
 
             // Execute any raw AHK code
             ahk.ExecRaw("MsgBoxd, Hello World!");
-
-            return;
 
             // Create new AHK hotkeys
             ahk.ExecRaw("^a::Send, Hello World!"); // CTRL+A types "Hello World!"
