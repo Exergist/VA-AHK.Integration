@@ -34,7 +34,7 @@ Comprehensive examples of the C# inline functions used to invoke the AutoHotkey 
   ``` 
   3. Terminate the AutoHotkey thread and thereby stop all AutoHotkey processing from within VoiceAttack
   ```C#
-  ahk.Terminate();
+  ahk.Terminate(); // Wise to include at end of all AutoHotkey-related inline functions for good measure
   ``` 
 
 The VoiceAttack command *Single Function Example* showcases how to perform a wide range of AutoHotkey actions using VA-AHK.Integration, and this command contains all the AutoHotkey functionality within a single C# inline function. It showcases the above method for running tasks on top of an existing thread as well as running raw AutoHotkey code or scripts directly through a thread. The array of commands in the *Multi-Function Example* shows how to execute the above three steps in C# inline functions spread across multiple commands (which can be handy since an AutoHotkey thread will run within the VoiceAttack process instance until either are terminated). Both examples also demonstrate how to pass information back and forth between VoiceAttack, the C# inline function, and the AutoHotkey process invoked via the C# inline function.  The *Keypress Capture* command demonstrates how to use the functionality across multiple C# inline functions within one command. Finally the *Change Default Windows TTS Voice* command showcases the execution of a single AutoHotkey script from within one C# inline function. All the VoiceAttack commands and their C# inline functions are provided with detailed comments so you can follow along with what is happening line by line. 
