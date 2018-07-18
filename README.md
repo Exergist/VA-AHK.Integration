@@ -48,7 +48,7 @@ As far as I know whatever you can do natively in AutoHotkey you can do with VA-A
 ## How do I update it?
 The version of AutoHotkey functionality available via VA-AHK.Integration is dictated by the *AutoHokey.dll* files within the *x86* and *x64* folders. You an access these folders by opening VoiceAttack's root directory in the File Explorer (contains the *VoiceAttack.exe* file) and then navigating to *Apps\VA-AHK.Integration.* If you happen to also have the actual AutoHotkey software installed, updating the software will not update the AutoHotkey version available through VA-AHK.Integration. 
 
-It appears that HotKeyIt is updating the *AutoHotkey.dll* files, for both AutoHotkey v1 and the alpha v2, not long after new versions of AutoHotkey are released. The files may be found in the *Downloads* section at [HotKeyIt's AutoHotkey\_H Repository](https://hotkeyit.github.io/v2/), and the author also provides links to the source code. As previously mentioned, VA-AHK.Integration was created with AutoHotkey v1 in mind. More specifically, the provided examples work with the syntax used in AutoHotkey v1. However there's no reason why, with some modification to the input AutoHotkey syntax, that VA-AHK.Integration wouldn't work with v2. Please be aware though that all testing for VA-AHK.Integration was done using *AutoHotkey.dll* v1 files. 
+It appears that HotKeyIt is updating the *AutoHotkey.dll* files, for both AutoHotkey v1 and the alpha v2, not long after new versions of AutoHotkey are released. The files may be found in the *Downloads* section at [HotKeyIt's AutoHotkey\_H Repository landing page](https://hotkeyit.github.io/v2/), and the author also provides links to the source code. As previously mentioned, VA-AHK.Integration was created with AutoHotkey v1 in mind. More specifically, the provided examples work with the syntax used in AutoHotkey v1. However there's no reason why, with some modification to the input AutoHotkey syntax, that VA-AHK.Integration wouldn't work with v2. Please be aware though that all testing for VA-AHK.Integration was done using *AutoHotkey.dll* v1 files. 
 
 You can check the versions of the *AutoHotkey.dll* and *VA.AutoHotkey.Interop.dll* libraries employed by VA-AHK.Integration by running the *Get Version Info* command in VoiceAttack. 
 
@@ -80,6 +80,6 @@ I am one of the moderators on the VoiceAttack User Forums, and I receive no bene
 ## Primary Links
  - [amazing-andrew's AutoHotkey.Interop Repository](https://github.com/amazing-andrew/AutoHotkey.Interop)
  - [AutoHotKey\_H Documentation & Libraries](http://hotkeyit.github.io/v2/)
- - [HotKeyIt's AutoHotkey\_H Repository](https://github.com/HotKeyIt/ahkdll) (also see [v1 release](https://github.com/HotKeyIt/ahkdll-v1-release) and [v2 release](https://github.com/HotKeyIt/ahkdll-v2-release))
+ - [HotKeyIt's AutoHotkey\_H Repository](https://github.com/HotKeyIt/ahkdll) and associated [GitHub landing page](https://hotkeyit.github.io/v2/) (also see [v1 release](https://github.com/HotKeyIt/ahkdll-v1-release) and [v2 release](https://github.com/HotKeyIt/ahkdll-v2-release))
  - [AutoHotkey](https://autohotkey.com/) (and [AutoHotkey_L source code](https://github.com/Lexikos/AutoHotkey_L))
  - [VoiceAttack.com](http://voiceattack.com/)
