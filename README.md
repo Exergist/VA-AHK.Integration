@@ -22,6 +22,8 @@ This project employs a modified version of [amazing-andrew's AutoHotkey.Interop]
 
 This completes the installation of VA-AHK.Integration. You should now have a folder called *VA-AHK.Integration* in your VoiceAttack *Apps* directory that houses all the files needed for the associated profile to function. If you encounter an error during initial installation a could first step would be to restart VoiceAttack and then try to import the *.vax* again. 
 
+Each AutoHotkey-related command has an inline function that checks for the presence and version of the *VA.AutoHotkey.Interop.dll* library in VoiceAttack's *Shared\Assemblies* folder. If the library is missing or needs to be updated (compared to the stored version in the *Apps\VA-AHK.Integration* folder), the inline function will move/copy the stored library automatically into the *Shared\Assemblies* folder (though you can certainly perform this process manually). If you try to compile an AutoHotkey-related inline function in VoiceAttack without *VA.AutoHotkey.Interop.dll* present in the *Shared\Assemblies* folder you will get an error. 
+
 ## How do I use it?
 Comprehensive examples of the C# inline functions used to invoke the AutoHotkey functionality are given in the included VoiceAttack profile. The process basically comes down to three steps:
   1. Create an AutoHotkey thread to act as a base to run other AutoHotkey tasks
