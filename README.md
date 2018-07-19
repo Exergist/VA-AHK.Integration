@@ -70,9 +70,6 @@ If you are having problems specifically with the VA-AHK.Integration commands or 
  - Credit for AutoHotkey_H (fork of AutoHotkey_L and provides the 32 and 64-bit *AutoHotkey.dll*) goes to tinku99 (inventor) and HotKeyIt (enhancements and continued development) ([Source](https://github.com/HotKeyIt/ahkdll))
  - Credit for AutoHotkey.Interop goes to "amazing-andrew" (Andrew Smith) ([Source](https://github.com/amazing-andrew/AutoHotkey.Interop))
  - Credit for the creation and continued development of VoiceAttack goes to Gary at www.voiceattack.com
- 
- ## Thanks
- (pending)
 
 ## Full Disclosure
 I am one of the moderators on the VoiceAttack User Forums, and I receive no benefits from the use or promotion of the VoiceAttack software. 
