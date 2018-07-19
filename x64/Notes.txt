@@ -1,1 +1,0 @@
-This is the 64-bit version of AutoHotkey.dll (v1)
